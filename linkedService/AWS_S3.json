@@ -8,20 +8,18 @@
 			"accessKeyId": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
-					"referenceName": "AzureKeyVault",
+					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "accessKeyId",
-				"secretVersion": "52ccf929ce24498d8d2f00b255b69cd4"
+				"secretName": "AWS-Acess-Key"
 			},
 			"secretAccessKey": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
-					"referenceName": "AzureKeyVault",
+					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "AWS-SECRET-ACCESS-KEY",
-				"secretVersion": "e1b6b0d6b64044c8b029997f9c4bf990"
+				"secretName": "AWS-Secret-key"
 			},
 			"authenticationType": "AccessKey"
 		}
